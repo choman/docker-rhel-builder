@@ -9,7 +9,7 @@ This docker image builds a docker base image for
 In theory this should support all RHEL clones, including ScientificLinux and Fedora
 
 ## What happens
-Run ./build.sh <path to ISO>/centos.iso
+Run ./build.sh "<path to ISO>/centos.iso"
 - sudo mounts the ISO to /mnt
 - from the ubuntu base image
 - installs yum and rpm
