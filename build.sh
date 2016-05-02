@@ -23,3 +23,5 @@ fi
 docker build --pull -t ${img_name}:$version -t ${img_name}:latest .
 docker run --rm -v /mnt:/mnt -v `pwd`/output:/output ${img_name}
 
+sudo chown -R $LOGNAME:$LOGNAME output
+

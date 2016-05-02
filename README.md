@@ -15,4 +15,5 @@ Run ./build.sh "<path to ISO>/centos.iso"
 - installs yum and rpm
 - fires a script to install from ISO to /rhel in the container
   - script builds a tarball that can be imported into docker
+- sudo chown -R $LOGNAME:$LOGNAME output
 
