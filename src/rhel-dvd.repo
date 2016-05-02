@@ -1,0 +1,3 @@
+[rhel-dvd]
+name=Red Hat Enterprise Linux $releasever - $basearch - DVD
+baseurl=file:///mnt
