@@ -6,6 +6,8 @@ This docker image builds a docker base image for
 - RHEL 7.2
 - RHEL 6.7
 
+In theory this should support all RHEL clones, including ScientificLinux and Fedora
+
 ## What happens
 Run ./build.sh <path to ISO>/centos.iso
 - sudo mounts the ISO to /mnt
@@ -14,5 +16,3 @@ Run ./build.sh <path to ISO>/centos.iso
 - fires a script to install from ISO to /rhel in the container
   - script builds a tarball that can be imported into docker
 
-
-# Coming soon
