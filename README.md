@@ -20,5 +20,5 @@ Run ./build.sh "<path to ISO>/centos.iso"
 
 ## Notes
 - Final base images are not as small as the official images
-- This project was started as a need to obtain a RHEL base image since they are not available
+- This project was started as a need to obtain a RHEL base image since they are not available at dockerhub
 
